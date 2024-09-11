@@ -14,7 +14,7 @@ on:
       
 jobs:
   reusable-job:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Greet someone
         run: echo "Hello ${{ inputs.who-to-greet }}"
